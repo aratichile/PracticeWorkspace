@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Banking Application</string>
+    <string name="title_activity_add_account">AddAccount</string>
+    <string name="title_activity_add">Add</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ifsc">IFSC</string>
+    <string name="enter_account_number">Enter Account Number</string>
+    <string name="enter_account_holder_name">Enter Account Holder Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="add">Add Bank Acount</string>
+    <string name="title_activity_list">ListActivity</string>
+</resources>
