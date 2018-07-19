@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bank App</string>
+    <string name="title_activity_banking_link">Banking Related Links</string>
+    <string name="title_activity_add_bank_account">Add New Bank Account</string>
+    <string name="title_activity_bank_account_list">List of Bank Account</string>
+    <string name="title_activity_banking_detail">Detail of Bank</string>
+    <string name="title_activity_banking_ideas">Ideas Related Banking</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ifsc">IFSC</string>
+    <string name="enter_account_number">Enter Account Number</string>
+    <string name="enter_account_holder_name">Enter Account Holder Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="add">Add Bank Acount</string>
+    <string name="account_holder_ph_no_textview">9632587415</string>
+    <string name="account_holder_text_textview">XYZ</string>
+    <string name="account_num_textview">20543346523764656</string>
+    <string name="account_holder_ifsc_Textview">IFSC43847987</string>
+    <string name="title_activity_bank_account_holder_detail">BankAccountHolderDetailActivity
+    </string>
+
+
+</resources>

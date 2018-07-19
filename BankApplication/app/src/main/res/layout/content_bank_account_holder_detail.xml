@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bank_holder_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.BankAccountHolderDetailActivity"
+    tools:showIn="@layout/activity_bank_account_holder_detail">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_user_profile"
+            app:civ_border_color="#8FBFE0"
+            app:civ_border_width="3dp" />
+
+
+        <TextView
+            android:id="@+id/idscTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:paddingTop="2dp"
+            android:shadowColor="@color/colorPrimary"
+            android:drawablePadding="15dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:drawableLeft="@drawable/ic_ifcf"
+            android:text="@string/account_holder_ifsc_Textview"
+            android:drawableStart="@drawable/ic_ifcf" />
+
+        <TextView
+            android:id="@+id/accountnumTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:paddingTop="2dp"
+            android:shadowColor="@color/colorPrimary"
+            android:drawablePadding="15dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:text="@string/account_num_textview"
+            android:drawableLeft="@drawable/ic_account_num"
+            android:drawableStart="@drawable/ic_account_num" />
+
+        <TextView
+            android:id="@+id/accountholderNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:paddingTop="2dp"
+            android:shadowColor="@color/colorPrimary"
+            android:drawablePadding="15dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:drawableLeft="@drawable/ic_account_holder"
+            android:text="@string/account_holder_text_textview"
+            android:drawableStart="@drawable/ic_account_holder" />
+
+        <TextView
+            android:id="@+id/phoneNumTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:singleLine="true"
+            android:paddingTop="2dp"
+            android:shadowColor="@color/colorPrimary"
+            android:drawablePadding="15dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:drawableLeft="@drawable/ic_phone_num"
+            android:text="@string/account_holder_ph_no_textview"
+            android:drawableStart="@drawable/ic_phone_num" />
+
+
+</LinearLayout>
+</LinearLayout>
